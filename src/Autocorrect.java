@@ -70,7 +70,7 @@ public class Autocorrect {
                 return a.compareTo(b);
             }
         });
-        // Converts to an arraylist
+        // Converts an arraylist to an array
         return matches.toArray(new String[0]);
     }
 
