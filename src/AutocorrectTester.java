@@ -2,6 +2,8 @@ import org.junit.Test;
 import org.junit.jupiter.api.Timeout;
 import java.io.*;
 import java.util.concurrent.TimeUnit;
+
+import static org.junit.Assert.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class AutocorrectTester {
